@@ -1,0 +1,118 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo desktop */
+body {
+    background-color: #0E1014;
+    color: #ffffff;
+}
+
+header img {
+    display: block;
+    margin: 75px 0 0 360px;
+    width: 188px;
+    height: 29px;
+}
+
+h1 {
+    font-family: "inter", sans-serif;
+    font-weight: bold;
+    font-size: 64px;
+    text-align: center;
+    margin: 60px auto 0;
+    width: 835px;
+}
+
+h1 span {
+    color: #74BF1E;
+}
+
+p {
+    font-family: "inter", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    margin: 24px auto 0;
+    width: 792px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font-family: "inter", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    background-color: #74BF1E;
+    width: 326px;
+    height: 66px;
+    display: block;
+    text-align: center;
+    line-height: 66px;
+    border-radius: 36px;
+    margin: 40px auto;
+}
+
+a:hover {
+    background-color: #5c9619;
+}
+
+section img {
+    display: block;
+    margin: 40px auto;
+    width: 830px;
+    height: 759px;
+}
+
+@media (max-width: 768px) {
+
+    /* Estilo tablet */
+    header img {
+        margin: 65px 0 0 60px;
+    }
+
+    h1 {
+        width: 648px;
+        margin: 60px auto 0;
+    }
+
+    p {
+        width: 648px;
+        margin: 24px auto 0;
+    }
+}
+
+@media (max-width: 375px) {
+
+    /* Estilo mobile */
+    header img {
+        margin: 32px 0 0 16px;
+    }
+
+    h1 {
+        font-size: 40px;
+        width: 341px;
+        margin: 40px auto 0;
+    }
+
+    p {
+        width: 341px;
+        font-size: 24px;
+        margin: 24px auto 0;
+    }
+
+    a {
+        font-size: 20px;
+        width: 251px;
+        margin: 24px auto 0 ;
+    }
+
+    section img {
+        width: 465px;
+        height: 488.4px;
+    }
+
+
+}
